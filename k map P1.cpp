@@ -26,8 +26,12 @@ void loop() {
   B=(!W&&X&&!Z) || (W&&!X&&!Z);
   C=(W&&X&&!Y&&!Z) || (!W&&Y&&!Z) || (!X&&Y&&!Z);
   D = (W&&X&&Y&&!Z)||(!W&&!X&&!Y&&Z);
-  
+W=A;
+X=B;
+Y=C;
+Z=D;
 disp_7447(D,C,B,A);  
+  delay(1000);
 }
 //&& is the AND operation
 // || is the OR operation
