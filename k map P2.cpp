@@ -46,7 +46,7 @@ e = (!Z&&W) || (!Y&&!X&&W) || (!Z&&Y&&!X);
 f = (!Z&&X&&W) || (!Z&&!Y&&W) || (!Z&&!Y&&X);
 g = (!Z&&!Y&&!X) || (!Z&&Y&&X&&W);
 sevenseg(a,b,c,d,e,f,g);
-delay(500);
+delay(1000);
 
 
 }
